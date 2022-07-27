@@ -1,4 +1,4 @@
-window.onload = loadTasks;
+window.onload = loadTasks();
 
 function loadTasks() {
   // Get the tasks from localStorage and convert it to an array
