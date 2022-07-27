@@ -15,8 +15,8 @@ function loadTasks() {
   });
 }
 
-function addTask(e) {
-  e.preventDefault()
+function addTask() {
+
   const task = document.querySelector("form input");
   const list = document.querySelector("ul");
   // return if task is empty
